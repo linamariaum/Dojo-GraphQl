@@ -1,6 +1,6 @@
 module.exports = {
     Query: {
-        posts: (_, __, {dataSources}) => {dataSources.PostsAPI.getAllPost()}
+        posts: (_, __, {dataSources}) => dataSources.PostApi.getAllPost()
     }
 
 }

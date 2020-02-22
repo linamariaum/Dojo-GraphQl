@@ -4,7 +4,7 @@ class PostAPI extends RESTDataSource{
     
     constructor(){
         super();
-        this.baseURL = 'https://jsonplaceholder.typicode.com/'
+        this.baseURL = "https://jsonplaceholder.typicode.com/"
     }
 
     async getAllPost(){

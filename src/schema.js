@@ -16,7 +16,7 @@ const typeDefs = gql`
     }
 
     type Query{
-        posts: [Post]!
+        posts: [Post]
     }
 `
 
