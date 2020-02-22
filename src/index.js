@@ -7,7 +7,7 @@ const PostApi = require('./DataSource/PostAPI')
 const server = new ApolloServer({
     typeDefs,
     resolvers,
-    dataSources: () => new PostApi()
+    dataSources: () => ({PostApi: new PostApi()})
 })
 
 server.listen().then(({ url}) => {
