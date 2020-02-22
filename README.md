@@ -1,6 +1,6 @@
 # Dojo-GraphQl
 Clase Empresariales, segundo Dojo
 
-###Depedencias
+### Depedencias
 
 npm install apollo-server apollo-datasource-rest graphql mongoose --save
